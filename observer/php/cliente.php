@@ -8,6 +8,10 @@ use Observer\Php\Sujeito;
 use Observer\Php\Observadores\ObservadorConcretoA;
 use Observer\Php\Observadores\ObservadorConcretoB;
 
+require __DIR__ .'/Sujeito.php';
+require __DIR__ .'/Observadores/ObservadorConcretoA.php';
+require __DIR__ .'/Observadores/ObservadorConcretoB.php';
+
 
 /**
  * O PHP possui algumas interfaces embutidas relacionadas ao padrão Observer.
